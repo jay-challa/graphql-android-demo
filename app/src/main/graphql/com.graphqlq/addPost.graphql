@@ -1,0 +1,8 @@
+mutation createPosts($name : String!,$discriptions : String!){
+   createPost(name : $name,discriptions : $discriptions){
+       name
+       discriptions
+    }
+}
+
+

@@ -1,0 +1,22 @@
+# Try to write your query here
+query allPostQuery{
+  allPosts{
+    id
+    name
+    discriptions
+  }
+}
+
+query allNameQuery{
+  allPosts{
+    name
+  }
+}
+
+query allDiscriptionQuery{
+  allPosts{
+    discriptions
+  }
+}
+
+
